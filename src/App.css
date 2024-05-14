@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table {
+  width: 500px
+}
+
+.number {
+  width: 10%
+}
+
+.name {
+  width: 70%
+}
+
+.score {
+  width: 20%
+}
+
+.top-row {
+  background-color: lightgreen;
+}
