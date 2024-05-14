@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import './App.css';
+import '../App.css';
+import AuthForm from "./Auth/AuthForm";
+import SignUp from "./Auth/SignUp";
 
 interface IUser {
     name: string;
@@ -61,10 +63,20 @@ function Input() {
     )
 }
 
+function Tournament() {
+    return (
+        <>
+            <button className='create-tournament'>Create</button>
+        </>
+    )
+}
+
 function App() {
   return (
       <>
-        <Input/>
+        {/*<Input/>*/}
+        {/*  <Tournament/>*/}
+          <SignUp/>
       </>
   );
 }

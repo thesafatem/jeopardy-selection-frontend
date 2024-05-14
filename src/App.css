@@ -62,3 +62,10 @@ table, th, td {
 .top-row {
   background-color: lightgreen;
 }
+
+.create-tournament {
+  width: 200px;
+  height: 100px;
+  align-self: center;
+  background-color: lightgreen;
+}
