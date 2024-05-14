@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../App.css';
 import SignUp from "./Auth/SignUp";
 import SignIn from "./Auth/SignIn";
+import TournamentCreationForm from "./Tournament/TournamentCreationForm/TournamentCreationForm";
 
 interface IUser {
     name: string;
@@ -63,20 +64,12 @@ function Input() {
     )
 }
 
-function Tournament() {
-    return (
-        <>
-            <button className='create-tournament'>Create</button>
-        </>
-    )
-}
-
 function App() {
   return (
       <>
         {/*<Input/>*/}
-        {/*  <Tournament/>*/}
-          <SignIn/>
+        {/*  <SignIn/>*/}
+          <TournamentCreationForm/>
       </>
   );
 }

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tournament-creation-container {
+    width: 20%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tournament-creation-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tournament-creation-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tournament-creation-container button {
+    padding: 10px;
+    background-color: #007bff;
+    /*background-color: green;*/
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container label {
+    margin-bottom: 5px;
+}
+
+.input-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
