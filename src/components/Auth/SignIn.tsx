@@ -1,5 +1,6 @@
 import React from 'react';
 import AuthForm from "./AuthForm";
+import './Auth.css'
 
 const SignIn: React.FC = () => {
     const handleSignIn = async (email: string, password: string) => {
@@ -21,8 +22,7 @@ const SignIn: React.FC = () => {
     }
 
     return (
-        <div>
-            <h2>Sign In</h2>
+        <div className="container">
             <AuthForm onSubmit={handleSignIn} />
         </div>
     )

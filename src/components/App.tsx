@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import '../App.css';
-import AuthForm from "./Auth/AuthForm";
 import SignUp from "./Auth/SignUp";
+import SignIn from "./Auth/SignIn";
 
 interface IUser {
     name: string;
@@ -76,7 +76,7 @@ function App() {
       <>
         {/*<Input/>*/}
         {/*  <Tournament/>*/}
-          <SignUp/>
+          <SignIn/>
       </>
   );
 }
