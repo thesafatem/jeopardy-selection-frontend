@@ -3,6 +3,7 @@ import '../App.css';
 import SignUp from "./Auth/SignUp";
 import SignIn from "./Auth/SignIn";
 import TournamentCreationForm from "./Tournament/TournamentCreationForm/TournamentCreationForm";
+import TournamentList from "./Tournament/TournamentList/TournamentList";
 
 interface IUser {
     name: string;
@@ -69,7 +70,8 @@ function App() {
       <>
         {/*<Input/>*/}
         {/*  <SignIn/>*/}
-          <TournamentCreationForm/>
+        {/*  <TournamentCreationForm/>*/}
+          <TournamentList/>
       </>
   );
 }
