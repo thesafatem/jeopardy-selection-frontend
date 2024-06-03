@@ -20,7 +20,7 @@ const SignUp: React.FC = () => {
             }
             const { user: { authToken } } = data;
             localStorage.setItem('authToken', authToken);
-            navigate('tournaments', { replace: false });
+            navigate('home', { replace: false });
         } catch (error) {
             throw error
         }
